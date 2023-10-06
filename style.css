@@ -79,6 +79,37 @@ body {
     color: green;
 }
 
+#searchInpt {
+    font-size: 40px;
+}
+
+#searchBtn {
+    font-size: 40px;
+}
+
+footer {   
+
+    background-color:rgb(192, 192, 192);
+    color: white;
+    padding: 20px 20px;
+    margin-top: 30px;
+
+
+}
+
+.som {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 17px;
+}
+
 @media (max-width: 1000px) {
     .shop{
         grid-template-columns: repeat(2, 223px);
